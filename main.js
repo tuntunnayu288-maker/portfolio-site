@@ -17,12 +17,12 @@ async function loadThreeJS() {
 
 // Sample portfolio images (replace with your own)
 const portfolioItems = [
-  { id: 1, color: 'color-1', title: 'Photo 1', type: 'photo', image: '/images/photo-1.jpg' },
-  { id: 2, color: 'color-2', title: 'Photo 2', type: 'photo', image: '/images/photo-2.jpg' },
-  { id: 3, color: 'color-3', title: 'Photo 3', type: 'photo', image: '/images/photo-3.jpg' },
-  { id: 4, color: 'color-4', title: 'Photo 4', type: 'photo', image: '/images/photo-4.jpg' },
-  { id: 5, color: 'color-5', title: '3D Art', type: '3d' },
-  { id: 6, color: 'color-1', title: 'Photo 5', type: 'photo', image: '/images/photo-1.jpg' },
+  { id: 1, color: 'color-1', title: 'Photo 1', type: 'photo', image: './images/photo-1.jpg' },
+  { id: 2, color: 'color-2', title: 'Photo 2', type: 'photo', image: './images/photo-2.jpg' },
+  { id: 3, color: 'color-3', title: 'Photo 3', type: 'photo', image: './images/photo-3.jpg' },
+  { id: 4, color: 'color-4', title: 'Photo 4', type: 'photo', image: './images/photo-4.jpg' },
+  { id: 5, color: 'color-5', title: 'Photo 5', type: 'photo', image: './images/photo-5.jpg' },
+  { id: 6, color: 'color-1', title: '3D Art', type: '3d' },
 ];
 
 let currentImageIndex = 0;
