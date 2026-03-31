@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-logo">PORTFOLIO</div>
+    <div class="nav-links">
+      <a href="#gallery">WORK</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-shape hero-shape-1"></div>
+    <div class="hero-shape hero-shape-2"></div>
+    <div class="hero-shape hero-shape-3"></div>
+    <h1 class="hero-title">CREATIVE<br>COLLECTION</h1>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- Images will be inserted here -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2>ABOUT</h2>
+      <p>A curated collection of visual experiments, digital artifacts, and creative explorations.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>GET IN TOUCH</h2>
+    <a href="mailto:hello@example.com" class="contact-link">hello@example.com</a>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightboxImage">
+      <div class="lightbox-3d-container" id="lightbox3d"></div>
+    </div>
+    <div class="lightbox-nav lightbox-prev" id="lightboxPrev">&#10094;</div>
+    <div class="lightbox-nav lightbox-next" id="lightboxNext">&#10095;</div>
+  </div>
+
+  <script src="main.js" type="module"></script>
+</body>
+</html>
